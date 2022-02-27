@@ -1,0 +1,5 @@
+print("Hallo")
+print("Dies ist ein Test")
+print("Hier testen wir die Eingabe!")
+number = int(input("Geben Sie eine Zahl ein!"))
+print(f"Es ist die Nummer {number}")   

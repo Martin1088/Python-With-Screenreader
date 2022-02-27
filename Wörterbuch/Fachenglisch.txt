@@ -1,0 +1,915 @@
+((339))
+
+Fachliches Englisch
+
+((340))
+
+Business terms
+
+account book - Kontobuch 
+admonition - Mahnung 
+bank surety - Bankbürgschaft 
+bonus - Prämie 
+business friend - Geschäftsfreund 
+cash payment - Barzahlung 
+catalog(ue) - Katalog 
+charge - Gebühr 
+charge - Belastung des Kontos 
+cheque - Scheck 
+commercial conditions - Kommerzielle Bedingungen
+commission - Provision 
+complaint - Reklamation 
+conditions of payment - Zahlungsbedingungen 
+confirmation - Bestätigung 
+contract - Vertrag 
+contractor - Lieferant 
+contractor account - Lieferantenkonto 
+contractual penalty - Vertragsstrafe 
+cost - Kosten 
+credit - Haben 
+credit - Kredit 
+credit giver - Kreditgeber 
+credit voucher - Gutschrift 
+customer account - Kundenkonto 
+customs declaration	Zollerklärung 
+damage in transit - Transportschaden 
+date - Termin 
+debit - Soll 
+debit entry - Lastschrift 
+default interest - Verzugszins 
+delay - Verzögerung 
+delayed delivery - Lieferungsverzug 
+delivered possibility - Liefermöglichkeit 
+delivery note - Lieferschein 
+delivery deadline - Liefertermin 
+destination port - Zielhafen 
+development - Entwicklung 
+directions for use - Gebrauchsanweisung 
+discount - Rabatt 
+discount-cash - Skonto 
+dispatch - Versand 
+dispatch conditions - Versandbedingungen
+duty - Zoll 
+earning - Verdienst; Gehalt 
+end customer - Endkunde 
+european currency (ECU) - Europäische Währungseinheit (ECU) 
+export regulation - Ausfuhrvorschriften 
+faulty  consignment - Fehlerhafte Sendung 
+forwarding agent - Spediteur 
+free border - Freie Grenze 
+free samplev - Kostenloses Muster 
+government - Regierung 
+guarantee - Garantie 
+manuals - Handbücher 
+imporl - Import 
+incomplete delivery - Unvollständige Lieferung
+inquiry - Anfrage 
+installation for use - Installationsanweisung
+interest - Zins
+international money order - Internationale Zahlungsanweisung
+international standard - Internationale
+book number (ISBN) - Standardbuchnummer
+public limited company — (PLC)/(stock) corporation
+(amerikanisch) - Aktiengesellschaft (AG) 
+legal domicile - Gerichtsstand
+legal lawyer - Rechtsanwalt 
+legal position - Rechtslage
+length of guarantee - Garantiezeit 
+license - Lizenz
+ list of material - Materialliste 
+manufacturer - Hersteller
+marketing - Marketing 
+negotiation - Verhandlung 
+offer - Angebot 
+order - Auftrag; Bestellung
+order to pay - Zahlungsanweisung
+order to volume - Bestellumfang 
+packing material - Verpackungsmaterial
+(general) partnership - Offene Handels¬gesellschaft (OHG)
+payment - Bezahlung
+personal identification - Persönliche
+number (PIN) - ldentifikationsnummer
+piece - Stück
+price - Preis
+private limited company - GmbH
+product - Produkt
+profit/loss - Gewinn/Verlust
+project - Projekt
+prototype - Prototyp
+purchase an credit - Kreditkauf
+quality - Qualität
+quantity delivered - Lieferumfang
+quantitys - Mengen
+receipt - Quittung
+record - Beleg
+reduction - Nachlass
+replacement part - Ersatzteile
+sales invoice - Rechnung
+samples supplied - Mustersendung
+set - Satz
+settlement - Abrechnung
+settlement process - Abrechnungsverfahren
+shareholder - Aktionär
+statement - Abrechnungsbeleg
+storage charge - Lagerkosten
+storeroom - Lagerraum
+supply contract - Lieferungsvertrag
+terms of delivery - Lieferungsbedingungen
+transfer - Überweisung
+transport company - Transportfirma
+value added tax - Mehrwertsteuer
+wages per hour - Stundenlohn
+warehouse - Lager
+working group; syndicate – Arbeitsgemeinschaft
+
+Professions/Departments/Post/Transport
+
+Names of professions
+accountant – Buchhalter 
+administration – Verwaltung 
+agent – Vertreter
+ambassador – Botschafter
+area manager – Bezirksleiter 
+auditor – Wirtschaftsprüfer 
+branch manager – Filialleiter 
+broker – Makler
+buyer – Einkäufer
+chairman – Präsident, Vorsitzender
+chairwoman – Präsidentin. Vorsitzende
+chief engineer – leitender Ingenieur 
+chief executive (CEO) – Hauptgeschäftsführer
+chief financial officer – Leiter der Finanzabteilung (CFO)
+commercial representative – Handelsvertreter
+company secretary – Verwaltungsdirektor
+consultant – Berater 
+copywriter – Werbetexter
+customer service – Kundendienstleiter manager
+deputy – Stellvertretender Assistent
+design engineer – Konstrukteur 
+development engineer – Entwicklungsingenieur
+general manager – Generaldirektor
+director of public – Direktor der Abteilung für
+relations – Öffentlichkeitsarbeit
+editor in chief – Chefredakteur 
+engineering manager – Leiter der technischen Abteilung
+factory manager – Werksleiter 
+field sales manager – Außendienstleiter 
+general executive – Generaldirektor einer AG manager (GM)
+head – Chef; Direktor; Leiter 
+head of staff – Leiter der Personalabteilung
+import manager – Leiter der Importabteilung
+lecturer – Dozent; Lektor 
+logistics manager – Leiter der Logistikabteilung 
+managing director (MD) – Geschäftsführendes Vorstandsmitglied marketing assistant – Assistent der Marketingabteilung
+owner – Inhaber 
+partner – Gesellschafter; Teilhaber
+planning director – Leiter der Planungsabteilung
+press officer – Pressesprecher
+programmer – Programmierer
+project leader – Projektleiter 
+publicity manager – Werbeleiter 
+purchasing manager – Einkaufsleiter
+research director – Leiter der Forschungsabteilung
+sales representative – Handelsvertreter
+salesman – Verkäufer 
+senior manager – Leitender Mitarbeiter
+special assistant to managing director – Sekretär der Geschäflsleitung
+systems manager – Leiter der EDV-Abteilung
+vice chairman – Stellvertretender Generaldirektor
+
+Departments of a company
+Accounts Department – Buchhaltung 
+Administration	Verwaltung – Department
+Advertising Department – Werbeabteilung 
+Commercial Department – Handelsabteilung 
+Finance Department – Finanzabteilung
+Human Resources Department – Personalabteilung 
+Legal Department – Rechtsabteilung
+Marketing Department – Marketingabteilung 
+Public Relations Department – Abteilung für Öffentlichkeitsarbeit
+	
+Purchasing Department – Einkaufsabteilung 
+Research and Development – Forschung und Entwicklung
+Sales Department – Verkaufsabteilung 
+Technical Department – Technische Abteilung
+Training Department – Schulungsabteilung
+##eingelesen bis hier
+Postal and transport terms
+(fully insured) registered letter – Wertbrief 
+Addresses – Empfänger 
+By airmail – Per Luftpost 
+By courier – Per Kurier
+Cash an delivery (COD) – Nachnahme 
+Confidential – Vertraulich 
+Do not fold – Bitte nicht knicken
+Excess to pay – Nachgebühr 
+Express delivery – Eilzustellung
+Express letter – Eilbrief 
+If undelivered, please return to (sender)– Falls unzustellbar, bitte zurück an Absender
+Not known at this address – Empfänger unbekannt 
+Please forward – Bitte nachsenden
+Postage Paid – Portofrei
+Poste Restante – Postlagernd 
+Printed matter – Drucksache 
+Private and confidential – Streng vertraulich 
+Private; Personal – Persönlich 
+Registered letter – Einschreiben
+Registered letter with – Einschreiben gegen
+confirmation of delivery – Rückschein
+Return postage – Rückporto
+Sample of no commercial value – Muster ohne Wert 
+Sender; From – Absender 
+Special issue stamp – Sondermarke
+Urgent – Dringend 
+Weight – Gewicht
+
+((342))
+
+Numbers and mathematical functions
+
+Cardinal numbers 
+0 nought; (am.: zero)
+1 one 
+2 two 
+3 three 
+4 Tour 
+5 five 
+6 six 
+7 seven 
+8 eight 
+9 nine 
+10 ten 
+11 eleven 
+12 twelve
+13 thirteen 
+14 fourteen 
+15 fifteen 
+16 sixteen 
+17 seventeen 
+18 eighteen 
+19 nineteen 
+20 twenty 
+21 twenty-one 
+22 twenty-two 
+30 thirty 
+31 thirty-one  
+40 forty 
+50 fifty
+60 sixty 
+70 seventy  
+80 eighty  
+90 ninety 
+100 one hundred 
+101 a or one hundred and one
+200 two hundred  
+300 three hundred
+1000 one thousand  
+1,000000 one million
+
+Ordinal numbers 
+1st first 
+2nd second  
+3rd third  
+4th fourth  
+5th fifth  
+6th sixth  
+7th seventh  
+8th eighth  
+9th ninth  
+10th tenth  
+11th eleventh  
+12th twelfth  
+13th thirteenth  
+14th fourteenth
+15th fifteenth  
+16th sixteenth  
+17th seventeenth 
+18th eighteenth  
+19th nineteenth  
+20th twentieth  
+21st twenty-first  
+22nd twenty second
+23rd twenty-third  
+30th thirtieth  
+31st thirty-first  
+40th fortieth
+41st fourty-first  
+50th fiftieth  
+60th sixtieth 
+70th seventieth 
+80th eightieth  
+90th ninetieth  
+100th (one) hundreth 
+200th two hundredth 
+300th three hundredth 
+1000th (one) thousandth
+
+Fractions/other mathematical functions
+1/2 a half 
+11/2 one and a half  
+21/2 two and a half  
+41/3 four and one third  
+2/3 two thirds 
+1/4 one fourth 
+3/4 three fourth  
+1/5 one fifth 
+6/3 six eighths 
+15/20 fifteen twentieth  
+55% fifty five per cent 
+3.8 three point eight  
+4.89 four point eight nine  
+0.7 (nought) point seven 
+3+4=7 three plus four is seven
+6-2=4 six minus (less) two is four
+4:4=1 four divided by four is one
+1x1=1 once one is one 
+2 x 2=4 twice two is four 
+3x3=9 three times three is nine
+4x2=8 four times two (makes) eight 
+1. firstly; in the first place
+2. secondly; in the second place
+3. thirdly; in the third place
+A > b A is greater than b
+X >= y X is greater than/equal to y 
+d < b d is less than b  
+3 <= 4 three is less than/equal to four
+x^n x to the power of n  
+sqrt - root sign 
+\sum - summation sign  
+\int - integral sign  
+approximately equal 
+not = - not equal to
+
+Measures and weigths
+
+Length measures
+1 inch	2,54 cm 
+1 foot	12 inches; 30,48 cm 
+1 yard	3 feet; 91,44 cm 
+1 statue mile	1760 yards; 1,609 km 
+1 hand	4 inches; 10,16 cm 
+1 mm	0.001 yards; 0.003 feet 
+1 cm	0.39 inches 
+1 m	1.094 yards; 3.28 feet 
+1 km	1,093.637 yards 
+1 sm (Seemeile)	1,852 metres
+
+Square measures
+1 square inch	6,452 cm^2
+1 square foot	929,029 cm^2
+1 square yard	8361,26 cm^2
+1 acre	4046,8 m^2
+1 square mile	2,59 km^2
+1 mm^2	0.0015 square inches 
+1 cm^2	0.155 square inches 
+1 m^2	10.76 square feet 
+1 hectare	11,959.90 square yards 
+1 km^2	0.386 square miles 
+
+Commercial measures
+1 grain	0,0648 g 
+1 ounce	28,35 g 
+1 pound	453,59 g 
+1 hundredweight	50,802 kg (britisch) 
+1 long ton	1016,05 kg 
+1 stone	6,35 kg 
+1 quarter	12,701 kg 
+1 mg	0.015 grains 
+1 g	15.43 grains 
+1 Pfd (german pound)	1.102 pounds 
+1 kg	2.204 pounds 
+1 Ztr.	110.23 pounds; 0.98 British hundredweights
+1 t	0.984 British tons 
+
+Cubic measures
+1 cubic inch	16,387 cm^3
+1 cubic foot	0,02832 m^3
+1 cubic yard	0,7646 m^3
+1 cm^3	0.061 cubic inches
+1 m^3	1.307 cubic yards
+1 RT (register ton)	100 cubic feet 
+
+Capacity measures
+1 pint	0,568 l
+1 quart	1,136 l
+1 gallon	4,5449 l 
+1 quarter	290,935 l 
+1 barrel	163,656 l
+
+((343))
+
+accr. int. accrued interest (aufgelaufene Zinsen)
+Accs	Pay. accounts payable (Verbindlichkeiten)
+a.d.t.	automatic debit transfer
+amt.	Amount 
+appd	Approved 
+apt	Apartment
+arr	all rights reserved (copyright)
+Assn.	Association 
+Atten.	Attention
+av.	Average
+bal.	Balance 
+B & Bar Bench and Bar (Richter und Anwälte)
+B.C.	Before Christ 
+b.d.	Bank debits, bank draft
+b.e.	bill of exchange 
+bil., bn	Billion (Milliarde) 
+bidg	Building 
+BoE	Bank of England 
+Eros.	Brothers 
+B.S.	British Standard
+b.v.	Book value
+c.a.d.	Cash against documents  Cc, c/c Carbon copy 
+cent.	centum = hundred 
+cert.	Certified, certificate
+c.f.i.	cost, freight, insurance 
+cgo	Cargo 
+C.I.	Consular invoice
+Co.	Company 
+C/O	cash order, certificate of origin
+C/0	care of
+C.O.D.	cash an delivery (per NN) 
+com.	Commissioned, committee, commercial
+Corp.	Corporation 
+cr.	Creditor 
+C.S.	capital stock 
+dd	dated, delivered 
+dely	delivery 
+dep.	deputy, departure 
+disc.	discount 
+distr.	Distributed 
+div(s).	divdend(s) 
+d/n	debit note 
+d/o	delivery order 
+doc(s).	document(s) 
+dom.	domestic, domicile 
+d/p	documents against payment
+dpt,dept department 
+dup.	duplicate 
+ed.	edit 
+ed; e. d. extra dividend
+e.g.	exempli gratis = for example
+enc., encl.	enclosure 
+e.o. m.	end of month 
+eta	estimated time of arrival 
+ety	empty 
+ex	ex dividend
+exc.	exchange 
+excl.	excluding, exclusive 
+ex off.	ex officio = by authority of his office
+f.b.	freight bill 
+f.d.	free discharge 
+ff.	following pages
+f.i.	for instance
+f.i.c.	freight, insurance, carriage
+fig.	figure
+f.o.t.	free of tax, free on truck
+f.y.	fiscal year
+g.b.o.	goods in bad order 
+gr. wt.	gross weight 
+guar.	guaranteed
+G.V..	gross value 
+h. a.	hoc anno = in this year 
+hf	half 
+hgt	height 
+hr(s)	hour(s) 
+Inc.	incorporated 
+incl.	including, inclusive 
+in init.	in initio = in the beginning 
+ins.	insurance  insd.val. insured value 
+Inst..	Institute 
+inv.	invoice
+i.o.w.	in other words 
+IPD	interest, profits and dividands
+Jr., Jr,	junior
+I. a.	letter of advice (Avis, Benachrichtigungsschr.)
+I. c.	letter of credit (Akkreditiv)
+LCA	Licensed Company Auditor
+L & D	loss and damage, loans and discounts
+Ltd	Limited (brit.: AG/GmbH) 
+M.A.P.	maximum average price memo. memorandum
+mfg.	manufacfuring
+M.O.	money order (Postanweisung)
+mo.	month
+mis	months alter sight
+n.a.	no account
+N.A.V.	net annual value
+n.d.	not dated
+No(s).	number(s)
+n.o. p.	not otherwise provided
+o.a.	on account of
+o.ch.	overcharge
+o.d.	on demand, overdraft
+ox.	owner's risk
+ord.	ordinary (shares) 
+orig.	orig. origin(ally) 
+o. s.	on sale, out of stock 
+o.t.	overtime
+P.A.	power of attorney (Vollmacht)
+p. a.	per annum = yearly
+PAL.	Acc profit and loss account (Gewinn- und VerlustRechnung)
+pat.	patented
+payt.	payment
+P. E. R.	price-earning ratio (Kurs-Gewinn-Verhältnis) 
+p.m.	post meridiem = afternoon, post modern = after death
+P.O.B.	Post Office Box
+P.O.D.	pay on delivery (per Nachnahme)
+pp	pages
+ppd	prepaid
+pub.	publisher
+qlty	quality
+Q. R.	Quarterly Review
+reg(d)	registered
+Reg.T.	registered Trade Mark M.
+retd.	returned, retired (a.D.)
+rev.	review, revised
+R.P.M.	resale price maintenance (unverb. Preisempf.)
+Rte., Rt. Route
+sched	schedule
+sec.	secretary
+sect.	section(s)
+soc.	society
+sr, sen.	senior
+std.	standard
+t.b.	trial balance
+t.c.	till cancelled
+tfr	transfer
+ult.	ultimo = in the pre¬ceeding month
+VAT	value-added tax
+vol(s).	volume(s)
+vs.	versus = against
+Wc.	without charge
+w.e.f.	with effect from
+wf.	weight
+x. i.,	ex interest = not incl.
+x.int.	right to interest
+x n.	ex new shares not incl. right to new shares
+x'.wks	ex works
+yd.	yard(s)
+yr	year
+
+((344))
+
+Network abbreviations (A-M)
+
+AAL	ATM Adaption Layer 
+AAPI	ATM-API
+ABR	Available Bit Rate
+ACR	Attenuation to Crosstalk Ratio
+ADM	Add-Drop-Multiplexer
+API	Application Programming Interface 
+ARP	Address Resolution Protocol
+ARS	Automatic Route Selection
+ASN-1	Abstract Syntax Notation No. I
+ATM	Asynchronous Transfer Mode  
+ATM-C ATM Cross-Connect 
+AU	Access Unit
+AUI	Attachment Unit Interface 
+BECN	Backward Explicit Congestion Notification 
+BER	Bit Error Rate 
+BOM	Begin of Message 
+B-TE	TE for B-ISDN
+BUS	und Unknown Server
+CAN 	Customer Access Network
+CAPI	Common Application Programming Interface
+CBDS	Connectionless Broadband Data Service 
+CBR	Constant Bit Rate 
+CC	Cross Connect
+CDD	Connection and Data Distribution 
+CDDI	Copper Distributed Data Interface
+CDV	Cell Delay Variation 
+CEP	Connection Endpoint 
+CER	Cell Error Ratio 
+CL	Connectionless 
+CF	Convergence Function 
+CGW	Customer Gateway 
+CIR	Committed Information Rate 
+CLNS	Connectionless-Mode, Network Service
+CLP	Cell Loss Priority 
+CLR	Cell Loss Ratio 
+CLS	Connectionless Server
+CMR	Cell Misinsertion Ratio 
+CN	Corporate Network
+COM	Continuation of Message 
+CP	Common Part 
+CP-AAL Common Part AAL 
+CPE	Customer Premise Equipment 
+CR	Call Request 
+CR 	Call Reference
+CRC 	Cyclic Redundancy Check
+CS 	Convergence Sublayer 
+CSI	Convergence Sublayer Indication 
+CSU	Communication/Channel Service Unit 
+CT	Cordless Telephone 
+CTD	Cell Transfer Delay 
+CUA	Common User Access 
+DA	Destination Address 
+DAC 	Dual Attached Concentrator
+DAL	Data Administration Language 
+DAS 	Dual Attached Station
+DCS 	Digital Cellular System
+DCE 	Data Communication Equipment 
+DE	Discard Eligilibity	
+DFA 	DXI Frame Address
+DL	Data Link 
+DLC	Data Link Control	
+DLCI	Data Link Connection Identifier
+DLP	Data Link Protocol	
+DLPI	Data Link Provider Interface
+DNA	Digital Network Architecture
+DS	Digital Signal
+DSMX	Digital Signal Multiplexer
+DSS1	Digital Subscriber Signalling System No. I 
+DSU	Data Service Unit
+DTE	Data Terminal Equipment 
+DXI	eXchange Interface	
+ECMA  European Computer Manufacturers Assocation
+EDI	Electronic Data Interchange
+EGW	Edge Gateway 
+Emu.	Emulation	
+EOM	End of Message 
+ERMES European Radio Message System
+FC	Frame Control
+FCS	Frame Check Sequence 
+FEC	Forward Error Correction	
+FECN 	Forward Explicit Congestion Notification
+FH	Frame Handler
+FOIRL	Fiber Optic Repeater Link 
+FR	Frame Relay
+FRAD	Frame Relay Assembly/Disassembly
+FRBS	Frame Relay Bearer Service
+FS	Frame Status 
+GCRA	Generic Cell Rate Algorithm 
+GFC	Generic Flow Control 
+HDLC	Level Data Link Control 
+HDTV 	High Definition Television 
+HEC	Header Error Control
+HS	High Speed 
+HS-LAN High Speed LAN 
+HSSI 	High Speed Serial Interface 
+ICI	Inter Carrier Interface 
+ID	Identifier 
+IETF	Internet Engineering Task Force 
+IF	Internetworking-Function
+IDN	Integrated Data Network
+IP	Internet Protocol
+IPX	Internetwork Packet eXchange 
+IS	Intermediate System 
+ISDN	Integrated Services Digital Network 
+IWU	Internetworking Unit 
+LAP-B	Link Access Procedure, Balanced 
+LAP-D	Link Access Procedure for the D-Channel	7 LAP-M Link Access Procedure for Modems 
+LAT	Local Area Transport
+LCI Logical Channel Identifier 
+LCR	Least Cost Routing
+LEC	LAN Emulation Client 
+LECS	LE Configuration Server
+LES	LAN-Emulation Server 
+LI	Length Indicator 
+LUNI	LAN-Emulation User-to-Network-Interface 
+MAC	Media Access Control 
+MAN 	Metropolitan Area Network
+MAU 	Medium Attachment Unit
+
+((345))
+
+Network abbreviations (M-Z)
+
+MBS Maximum Burst Size 
+MCR	Minimum Cell Rate 
+MID	Multiplexing Identification
+MLID	Multiple Link Interface Driver 
+MLP	Multilink Procedure  
+MM-FO Multimode-Fibre 
+MNP	Microcom Networking Protocol 
+MSIG	Metasignaling 
+MUX	Multiplexer 
+N-Adr.	Network Address
+NDIS	Network Driver Interface Specification 
+Net-	Network Basic 1/0-System
+BIOS
+Net-	NetBIOS Extended User Interface BEUI
+NFS	Network File System 
+NIU	Network Interface Unit 
+NLM	NetWare Loadable Modul 
+MNI	Network Network Interface 
+NPDU	Network Protocol Data Unit  
+nrt-VBR Non-Real-Time Variable Bit Rate 
+NSAP	Network Service Access Point 
+NT	Network Termination 
+OAM	Operation and Maintenance 
+ODI	Open Data-Link Interface 
+OSI	Open System Interconnection 
+OSPF	Open Shortest Path First 
+PAD	Packet Assembly/Disassembly 
+PAD	PADding 
+PCR	Peak Cell Rate 
+PDH	Plesiochronous Digital Hierarchy 
+PDU	Protocol Data Unit 
+PE	Protocol Entity 
+PH	Packet Handler 
+PID	Protocol ldentification 
+PLP	Packet Layer Protocol 
+PMD	Physical Medium Dependant Layer 
+PT	Payload Type 
+PVC	Permanent Virtual Connection 
+QoS	Quality of Service 
+R	Router 
+RCP	Remote Procedure Cell 
+RF	Routing-Function 
+RFC	Request for Comment 
+RIP	Routing Information Protocol 
+RMT	Ring Management 
+rt-VBR	Real-Time Variable Bit Rate 
+RT	Routing-Tabelle 
+RTS	Residual Time Stamp 
+SA	Source Address 
+SAC	Single Attached Concentrator 
+SAP	Service Access Point 
+SAPI	Service Access Point Identifier 
+SAR	Segmentation and Reassembly Sublayer 
+SAS	Single Attached Station 
+SCR	Sustainable Cell Rate 
+SDH	Synchronous Digital Hierarchy 
+SDLC	Synchronous Data Link Control  
+SECBR Severely Errored Cell Block Ratio 
+SHM	Short Hold Mode	
+SIR	Sustained Information Rate 
+SLP	Single Link Procedure 
+SMDS	Switched Multimegabit Data Service
+SM-GF Singlemode-Fibre 
+SM-	Shared Medium (Media) LAN LAN 
+SN	Subnetwork 
+SNA	System Network Architecture 
+SNAP 	Sub-Network Access Protocol
+SNI	Subscriber Network Interface 
+SONET  Synchronous Optical NETwork
+SPX	Sequenced Packet eXchange
+SRTS 	Synchronous Residual Time Stamp
+SSCS	Service Specific Convergence Sublayer
+SSP	Service Specific Protocol
+SSS	Switching Subsystem 
+STA	Spanning Tree Algorithm 
+STDM	Synchronous Time Division Multiplexing 
+STE	Signalling Terminal Exchange 
+STM	Synchronous Transfer Mode 
+SVC	Switched Virtual Connection
+SYN	Synchronisation 
+TA	Terminal Adapter 
+TCP	Transmission Control Protocol 
+TP	Transport-Protocol 
+TPDDI	Twisted Pair Distributed Data Interface 
+TR	Token Ring 
+TR-LAN Token-Ring-LAN 
+TRT	Token Rotation Time 
+TS	Traffic Shaping 
+TSI	Time Slot lnterchange 
+TSRC	Transmission Routing Protocol 
+UBR	Unspecified Bit Rate 
+UDP	User Datagram Protocol 
+UMTS	Universal Mobile Telecommunication System
+UNI	User Network Interface 
+UNRT	User Network Response Time 
+UPC	User Parameter Control 
+USRID	User Identification 
+VBR	Variable Bit Rate 
+VC	Virtual Channel 
+V-CAPI Virtual CAPI 
+VCI	Virtual Channel Identifier 
+VG	Voice Grade 
+VLAN	Virtual LAN 
+VLM	Virtual Loadable Modul 
+VNET	Virtual Network 
+VoD	Video an Demand 
+VP	Virtual Path 
+VPI	Virtual Path Identifier 
+VSAT	Very Small Aperture Terminal 
+VSP	Virtual Switching Point 
+WAN	Wide Area Network 
+WBC	Wide Band Channel 
+WS	Workstation 
+WWW World Wide Web 
+XMT	Transmitter 
+XREF	Cross Reference Table 
+ZBTSI	Zero Byte Time Slot Interchange
+
+((346))
+
+Power supply terms
+
+a. c. mater - Wechselstromzähler
+absorbed power - Aufgenommene Leistung 
+air conditioner - Klimaanlage 
+alternating current - Wechselstrom 
+alternating voltage - Wechselspannung 
+amperage - Stromstärke in Ampere
+attenuation - Abschwächung 
+battery - Batterie 
+battery charger - Batterieladegerät 
+battery-operated - Batteriebetrieben 
+boost(ing) - Verstärkung 
+bridge rectifier -	Brückengleichrichter 
+bridging; bypass - Überbrückung 
+bus (bar) - Sammelschiene 
+cable branching - Kabelabzweig 
+cable capacity  - Kabelkapazität 
+nable conducter - Kabelader 
+cable runaway - Kabelrost 
+capacitor - Kondensator 
+Gase; housing; cubicle - Gehäuse 
+circuit; connection - Schaltung 
+coaxial line - Koaxialleitung 
+coil; inductance - Spule 
+conductor cross - Leiterquerschnitt 
+connecting terminal - Verbindungsklemme 
+connector - Steckverbinder 
+container connection - Gehäuseanschluss 
+current source - Stromquelle 
+cylindrical winding - Zylinderwicklung 
+difference in phase - Phasenverschiebung 
+direct current (d. c.) - Gleichstrom 
+direct voltage - Gleichspannung 
+drop – off time lag - Abfallverzögerung 
+earth conductor - Schutzleiter 
+earth potential - Erdpotenzial 
+efficiency (factor) - Wirkungsgrad 
+electric power - Elektrische Leistung 
+electric shock - Schlag, elektrischer 
+electrode - Elektrode 
+energy store - Energiespeicher 
+fault current - Fehlerstrom 
+fuse - Sicherung 
+good earthing - Erdung 
+heating - Heizung 
+impedance - Scheinwiderstand 
+in parallel - Parallelschaltung 
+inductivity - Induktivität 
+interrupting current - Abschaltstrom 
+inverter - Wechselrichter 
+joint (splice) box - Kabelmuffe 
+junction box - Abzweigdose 
+leakage resistance - Ableitwiderstand 
+lightning protection - Blitzschutz 
+line filterv - etzfilter 
+main switch - Hauptschalter 
+mains connection - Netzanschluss 
+mains frequency - Netzfrequenz 
+mains supply gap - Netzlücke 
+measuring line - Messleitung 
+net load capacity - Netzkapazität
+neutral point - Nullpunkt
+nominal voltage - Nennspannung
+ohmic resistance - Wirkwiderstand
+overload - Überlast 
+overvoltage - Überspannung
+overvoltage protection - Überspannungsschutz
+overvoltage release - Überspannungsauslösung 
+parallel Operation - Parallelbetrieb
+pigtail - Drahtende 
+plant - Anlage 
+power (energy) transmission - Energieübertragung 
+power consumption - Leistungsverbrauch 
+power line - Netzleitung 
+power pack - Netzteil 
+power supply - Stromversorgung
+power; wattage(in Watt) - Leistung 
+primary voltage - Primärspannung 
+protection against contact - Schutz gegen Berühren 
+protection circuit - Schutzschaltung
+pull-in delay time - Anzugsverzögerung 
+rechargeable battery - Aufladbare Batterie 
+rectifier - Gleichrichter
+relay - Relais 
+resistance network - Widerstandsnetzwerk
+resistor - Widerstand 
+ring mains; loop - Ringleitung 
+rotary converter - Rotierender Umformer 
+screening factor - Abschirmfaktor 
+screening; shielding - Schirmung 
+secondary voltage - Sekundärspannung 
+series connection - Serienschaltung 
+series impedance - Längsimpedanz 
+short circuit - Kurzschluss 
+shunt resistor - Querwiderstand 
+solar current - Solarstrom 
+spare withdrawable unit - Reserveeinschub 
+speed variation - Drehzahländerung 
+standby; back up - Reserve 
+starter battery - Anlassbatterie 
+stationary battery - Ortsfeste Batterie 
+switch; circuit breaker - Schalter 
+temperature range - Temperaturbereich 
+thermal power station - Wärmekraftwerk 
+timeload withstand strength - Zeitbelastungsfestigkeit 
+to charge - Aufladen 
+transformer - Transformator 
+transformer ratio - Übersetzungsverhältnis 
+transformer tap - Transformatoranzapfung _
+transformer; - transmitter	Übertrager 
+two wire line - Doppelleitung 
+uninterruptible power supply (UPS)- Unterbrechungsfreie Stromversorgung
+vacuum arrester - Vakuumableiter 
+vibrating reed frequency mater - Zungenfrequenzmesser 
+voltage source	- Spannungsquelle  
+wind power plant - Windkraftanlage
+working voltage – Betriebsspannung

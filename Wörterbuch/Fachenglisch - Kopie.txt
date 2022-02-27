@@ -1,0 +1,112 @@
+account book - Kontobuch 
+admonition - Mahnung 
+bank surety - Bankbürgschaft 
+bonus - Prämie 
+business friend - Geschäftsfreund 
+cash payment - Barzahlung 
+catalog - Katalog 
+charge - Gebühr 
+charge - Belastung des Kontos 
+cheque - Scheck 
+commercial conditions - Kommerzielle Bedingungen
+commission - Provision 
+complaint - Reklamation 
+conditions of payment - Zahlungsbedingungen 
+confirmation - Bestätigung 
+contract - Vertrag 
+contractor - Lieferant 
+contractor account - Lieferantenkonto 
+contractual penalty - Vertragsstrafe 
+cost - Kosten 
+credit - Haben 
+credit - Kredit 
+credit giver - Kreditgeber 
+credit voucher - Gutschrift 
+customer account - Kundenkonto 
+customs declaration	Zollerklärung 
+damage in transit - Transportschaden 
+date - Termin 
+debit - Soll 
+debit entry - Lastschrift 
+default interest - Verzugszins 
+delay - Verzögerung 
+delayed delivery - Lieferungsverzug 
+delivered possibility - Liefermöglichkeit 
+delivery note - Lieferschein 
+delivery deadline - Liefertermin 
+destination port - Zielhafen 
+development - Entwicklung 
+directions for use - Gebrauchsanweisung 
+discount - Rabatt 
+discount-cash - Skonto 
+dispatch - Versand 
+dispatch conditions - Versandbedingungen
+duty - Zoll 
+earning - Verdienst; Gehalt 
+end customer - Endkunde 
+european currency - Europäische Währungseinheit (ECU) 
+export regulation - Ausfuhrvorschriften 
+faulty  consignment - Fehlerhafte Sendung 
+forwarding agent - Spediteur 
+free border - Freie Grenze 
+free samplev - Kostenloses Muster 
+government - Regierung 
+guarantee - Garantie 
+manuals - Handbücher 
+import - Import 
+incomplete delivery - Unvollständige Lieferung
+inquiry - Anfrage 
+installation for use - Installationsanweisung
+interest - Zins
+international money order - Internationale Zahlungsanweisung
+international standard - Internationale
+book number - Standardbuchnummer
+legal domicile - Gerichtsstand
+legal lawyer - Rechtsanwalt 
+legal position - Rechtslage
+length of guarantee - Garantiezeit 
+license - Lizenz
+list of material - Materialliste 
+manufacturer - Hersteller
+marketing - Marketing 
+negotiation - Verhandlung 
+offer - Angebot 
+order - Auftrag; Bestellung
+order to pay - Zahlungsanweisung
+order to volume - Bestellumfang 
+packing material - Verpackungsmaterial
+partnership - Offene Handels¬gesellschaft (OHG)
+payment - Bezahlung
+personal identification - Persönliche
+piece - Stück
+price - Preis
+private limited company - GmbH
+product - Produkt
+profit - Gewinn
+loss - Verlust
+project - Projekt
+prototype - Prototyp
+purchase an credit - Kreditkauf
+quality - Qualität
+quantity delivered - Lieferumfang
+quantitys - Mengen
+receipt - Quittung
+record - Beleg
+reduction - Nachlass
+replacement part - Ersatzteile
+sales invoice - Rechnung
+samples supplied - Mustersendung
+set - Satz
+settlement - Abrechnung
+settlement process - Abrechnungsverfahren
+shareholder - Aktionär
+statement - Abrechnungsbeleg
+storage charge - Lagerkosten
+storeroom - Lagerraum
+supply contract - Lieferungsvertrag
+terms of delivery - Lieferungsbedingungen
+transfer - Überweisung
+transport company - Transportfirma
+value added tax - Mehrwertsteuer
+wages per hour - Stundenlohn
+warehouse - Lager

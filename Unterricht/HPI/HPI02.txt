@@ -1,0 +1,8 @@
+# 2 Woche des Kurses 
+
+liste = [2,7,8,11,27]
+print(liste)
+print("Groesster Wert:" + max(liste))
+print(liste.sort(liste))
+satz = "dies ist ein Test"
+print(satz.cont("t"))

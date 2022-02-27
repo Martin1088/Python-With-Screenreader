@@ -1,0 +1,11 @@
+## hexa Dezimaler Übungsgsgenerator
+import random
+
+## Variablen 
+qest = random.randint(1,65535)
+choice = random.randint(0,1)
+solution = ""
+UserInput = ""
+## Funktion zum bestimmen der Hexadezimalen Zahl
+def HexaTranslator(number):
+	hexa = ["A","B","C","D","E","F"]

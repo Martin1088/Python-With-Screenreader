@@ -1,0 +1,26 @@
+account book - Kontobuch
+admonition - Mahnung
+bank surety - Bankbürgschaft 
+bonus - Prämie 
+business friend - Geschäftsfreund 
+cash payment - Barzahlung 
+catalog - Katalog 
+charge - Gebühr 
+charge - Belastung des Kontos 
+cheque - Scheck 
+commercial conditions - Kommerzielle Bedingungen
+commission - Provision 
+complaint - Reklamation 
+conditions of payment - Zahlungsbedingungen 
+confirmation - Bestätigung 
+contract - Vertrag 
+contractor - Lieferant 
+contractor account - Lieferantenkonto 
+contractual penalty - Vertragsstrafe 
+cost - Kosten 
+credit - Haben 
+credit - Kredit 
+credit giver - Kreditgeber 
+credit voucher - Gutschrift 
+customer account - Kundenkonto 
+customs declaration - Zollerklärung
