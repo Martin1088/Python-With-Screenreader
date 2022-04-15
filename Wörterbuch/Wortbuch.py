@@ -1,15 +1,26 @@
 ## Englisches Wörterbuch als Test 
 ## Test für Datei einlesen 
-
-woerter = {} ##leeres Dictionary für das Qörterbuch 
+## Funktion zum aussortieren 
+def caseForLine(name):
+	case01 = len(name) == 2 
+	case02 = "," not in name[0:1] and "," not in name[0:1] and ";" not in name[0:1] and "(" not in name[0:1]
+	if case01 and case02:
+		return True
+	else:
+		return False
+		
+## Hauptfunktion
+woerter = {} ##leeres Dictionary für das Wörterbuch 
 counter = 0 ##Zählt die Anzahl an Zeilen bzw 
 wrong = 0 ##Anzahl der Ungültigen Zeilen
+
 fobj = open("Fachenglisch.txt","r")
 for line in fobj:
 	counter += 1
 	line = line.strip()
 	name = line.split(" - ")
-	if len(name) == 2 and (name[0].count(",") == 0 and name[1].count(",") == 0):
+	
+	if caseForLine(name):
 		woerter[name[1]] = name[0]
 	else:
 		wrong += 1

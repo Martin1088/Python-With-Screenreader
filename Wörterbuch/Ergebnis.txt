@@ -150,6 +150,7 @@ Schutzleiter earth conductor
 Erdpotenzial earth potential
 Wirkungsgrad efficiency (factor)
 Elektrische Leistung electric power
+Schlag, elektrischer electric shock
 Elektrode electrode
 Energiespeicher energy store
 Fehlerstrom fault current
