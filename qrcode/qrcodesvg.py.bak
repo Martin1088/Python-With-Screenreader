@@ -1,0 +1,7 @@
+## Rasel
+import qwcode
+import qwcode.image.svg
+f = qrcode.image.svg.SvgPathImage
+img = qrcode.make("import qwcode")
+img.save("test.svg")
+
