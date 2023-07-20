@@ -1,0 +1,10 @@
+('c:\\t\\python39\\tcl\\tcl8.6\\..\\tcl8',
+ 'tcl8',
+ [],
+ 'DATA',
+ [('tcl8\\8.4\\platform-1.0.14.tm',
+   'c:\\t\\python39\\tcl\\tcl8.6\\..\\tcl8\\8.4\\platform-1.0.14.tm',
+   'DATA'),
+  ('tcl8\\8.4\\platform\\shell-1.1.4.tm',
+   'c:\\t\\python39\\tcl\\tcl8.6\\..\\tcl8\\8.4\\platform\\shell-1.1.4.tm',
+   'DATA')])
