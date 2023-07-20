@@ -1,0 +1,77 @@
+Bubblesort - Tauschen von zwei Elementen wie eine Blase
+
+Naive Programmierung:
+def bubblesort(list):
+    for i in range(len(list)): #Wiederhole die aufsteigenden Blasen
+        for j in range(len(list) -1): #gehe durch die Liste durch
+            if list[j] > list[j+1]:
+                swap(list[j], list[j+1]) #Größeres Element steigt wie eine Blase nach oben
+
+Schnellste Programmierung:
+Hier werden schon aufgestiegene Blasen am Listenende ignoriert. Außerdem wird abgebrochen, sobald sich in einem ganzen Durchlauf nichts mehr ändert.
+def bubblesort(list):
+    for i in range(len(list) - 1): #Wiederhole die aufsteigenden Blasen, aber die letzte Runde kann vergessen werden, weil wenn das zweite Element bereits richtig ist, und alle nachfolgenden ebenfalls, muss auch das erste richtig sein
+        for j in range(len(list) -1 - i): #Nach dem i-ten Durchlauf der äußeren Schleife kann man sicher sein, dass die letzten i Einträge der Liste richtig sortiert sind, deshalb muss man nicht jedesmal ganz durchgehen
+            change = False #Boolean, um Änderungen festzustellen
+            if list[j] > list[j+1]:
+                swap(list[j], list[j+1]) #Größeres Element steigt wie eine Blase nach oben
+                change = True
+        if not change: #Es Ändert sich nichts mehr, die Sortierung ist schon früher fertig
+            break
+    return list
+
+Vorteil des Algorithmus: Er arbeitet grundsätzlich In-Place, d.h. er muss keine neuen Listen anlegen sondern bearbeitet die ursprüngliche Liste
+
+Vergleich naive Variante vs. schnelle Variante:
+Die schnelle Variante ist besonders schnell, wenn die Liste schon fast sortiert ist. Als Beispiel zum Vergleich nehmen wir den Extremfall: Die Liste ist bereits vorher komplett sortiert:
+
+Beispiel:
+Liste = 1 2 3 4 5
+
+Naive Variante:
+1. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+2. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+3. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+4. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+5. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Man sieht, der Rechenaufwand für absolut nichts ist sehr hoch. Es wird einfach unglaublich lange gar nichts gemacht.
+
+Schnelle Variante:
+1. Durchlauf:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Nun ist die Änderungsvariable False, und wir brechen sofort ab

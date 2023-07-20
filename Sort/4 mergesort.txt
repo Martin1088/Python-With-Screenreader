@@ -1,0 +1,81 @@
+MergeSort - Sortieren durch rekursives Zusammenbauen von Teillisten
+
+In gewisser Weise Gegenstück zu Quicksort.
+Prinzip: Divide and Conquer (Teile und Hersche): Ein großes Problem ist einfacher lösbar, wenn man es in mehrere, kleinere Probleme zerlegt und diese alle löst
+
+Teile die Liste in der Mitte. Fahre damit rekursiv fort: Teile die entstandenen Listen immer wieder jeweils in der Mitte, bis du nur noch Listen mit jeweils einem einzigen Eintrag hast. Diese baust du dann schritt für schritt zu sortierten Listen zusammen. Stell dir das Zusammenbauen wie einen Reißverschluss vor. Denn du weißt immer, dass die bereits zusammengebauten Listen sortiert sind. Daraus folgt, dass du immer nur das erste Element beider Teillisten betrachten musst und das kleinere von beiden nimmst, um die neue Liste wie einen Reißverschluss zuzuziehen.
+
+def mergeSort(list):
+    if len(list) == 1: #Kleinstmögliche Liste erreicht, mit dem Zerteilen kann aufgehört werden
+        return list #Einfach diese Liste zurückgeben. Die ist logischerweise schon sortiert. Sie hat ja nur ein Element.
+    firstList = list[:len(list) // 2] #Schneide die erste Hälfte der Liste heraus
+    secondList = list[len(list) // 2:] #Schneide die zweite Hälfte heraus
+    firstSorted = mergeSort(first) #Gib die erste Hälfte rekursiv an einen neuen Aufruf von mergeSort weiter. Wenn dieser Aufruf seinen Rückgabewert zurückgibt, ist diese Hälfte in der Variable firstSorted sortiert
+    secondSorted = mergeSort(second) #Gib die zweite Hälfte rekursiv an einen neuen Aufruf von mergeSort weiter. Wenn dieser Aufruf seinen Rückgabewert zurückgibt, ist auch die zweite Hälfte der Liste sortiert und befindet sich in der Variablen secondSorted
+    newlist = [] #Inizialisierung der neuen Liste. Wir beginnen jetzt mit dem Reißverschlussverfahren.
+    while True:
+        if firstSorted == []: #Die erste Liste haben wir ganz geleert.
+            newlist = newlist + secondSort #Die zweite Liste können wir dann einfach ans Ende packen.
+            break #Wir sind fertig
+        elif secondSorted == []: #Die zweite Liste haben wir ganz geleert
+            newlist = newlist + firstSort #Die erste Liste können wir dann einfach ans Ende packen.
+            break #Wir sind fertig
+        elif firstSort[0] < secondSort[0]:
+            newlist.append(firstSort[0]) #Das kleinste Element hinten einfügen
+            firstSort.pop(0) #Das verwendete Element entfernen
+        else:
+            newlist.append(secondSort[0]) #Das kleinste Element hinten einfügen
+            secondSort.pop(0) #Das verwendete Element entfernen
+    return newlist #Entweder an eine höhere Funktion der Rekursion, so dass die jetzt weiterrechnen kann, oder wir sind ganz fertig und geben die vollständig sortierte Liste zurück
+
+Man sieht, alle Aufrufe der mergeSort-Funktion machen exakt das selbe. Nur werden die behandelten Listen tiefer in der Rekursion immer kleiner.
+
+Zur Laufzeit: Dieses Verfahren ist sehr gut, wenn die Liste schon fast richtig sortiert ist. Dann entnehmen wir nämlich immer die kleinsten Elemente aus der gleichen Liste, bis diese leer ist, und können dann einfach den ganzen Rest hinten anhängen. Die schlechteste Möglichkeit wäre, dass die Liste genau falschherum ist. Dann braucht der Algorithmus sehr lange für das Reißverschlussverfahren.
+
+In meinem Programm wird die Rekursion natürlich komplett eingehalten. Das ist vielleicht etwas schwer nachzuvollziehen. Deshalb ist hier ein Beispiel, wo wir um die Reihenfolge der Rekursion ein bisschen herumarbeiten. Das ist natürlich nicht ganz richtig, sollte aber besser zu verstehen sein. Achte beim Beispiel sehr stark auf die Einrückung.
+
+Liste = 1 3 2 4 5
+
+Wir teilen jeweils so gut wie möglich in der Mitte:
+
+1 3 2 4 5
+wird zu
+  1 3
+  2 4 5
+
+  1 3
+wird zu
+    1
+    3
+
+  2 4 5
+wird zu
+    2
+    4 5
+
+    4 5
+wird zu
+      4
+      5
+
+Jetzt bauen wir wieder zusammen:
+      4
+      5
+wird zu
+    4 5
+
+    2
+    4 5
+wird zu
+  2 4 5
+
+    1
+    3
+wird zu
+  1 3
+
+  2 4 5
+  1 3
+wird zu
+1 2 3 4 5
+fertig

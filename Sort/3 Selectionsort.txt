@@ -1,0 +1,19 @@
+SelectionSort - Sortieren durch passendes Auswählen
+
+Fast exaktes Gegenstück zu Insertionsort.
+Durchsuche die jeweils übrig gebliebene Liste nach dem kleinsten Element, dem Minimum. Schneide dieses Minimum aus und schreib es ans Ende der neuen Liste.
+
+def selectionSort(list):
+    newlist = []
+    for i in range(len(list)): #Wir suchen das Minimum, bis die alte Liste leer ist
+        min = list[0] #Als Startwert, nur damit min mit irgendetwas inizialisiert wird
+        for j in range(1, len(list)): #Die 0 können wir wegen der Zeile drüber jetzt weglassen
+            if list[j] < min: #Wir haben ein kleineres Element gefunden
+                min = list[j] #Aktualisiere das Minimum
+        list.remove(min) #Damit es in der nächsten Runde nicht mehr gefunden wird
+        newlist.append(min) #Ganz einfach ans Ende packen
+    return newlist
+
+Zur Laufzeit: Das Langsame hier ist das Auswählen. Jedesmal muss die Liste nach dem nächsten Minimum durchsucht werden. Das Einfügen ist hingegen absolut simpel. Bei Insertionsort war es genau andersherum.
+
+Für In-Place-Gedanken (Zusatzinformation) siehe die Datei zu Insertionsort, das lässt sich gut übertragen. Such einfach das Minimum nur noch im immer kleiner werdenden hinteren Teil und häng die schon ausgewählten Elemente im immer größer werdenden vorderen Teil an. Am Schluss ist die alte Liste leer und die neue füllt die Liste komplett aus.

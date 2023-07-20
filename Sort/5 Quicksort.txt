@@ -1,0 +1,33 @@
+Quicksort - Sortieren durch Vergleich an einem Pivotelement
+
+In gewisser Weise Gegenstück zu Mergesort.
+Prinzip: Divide and Conquer (Teile und Hersche): Ein großes Problem ist einfacher lösbar, wenn man es in mehrere, kleinere Probleme zerlegt und diese alle löst
+
+Wähle ein zufälliges Pivotelement aus (z.B. erstes Element, zufälliges Element, letztes Element). Erstelle dann drei Teillisten, eine mit Elementen kleiner als das Pivot, eine mit Elementen gleich dem Pivot, eine mit Elementen größer als das Pivot. Rufe dann wieder rekursiv Quicksort auf diesen Teillisten auf. Die Rekursion steigt so lange ab, bis eine Liste nur noch ein oder gar kein Element enthält. Dann werden die Listen wieder sortiert zusammengebaut, indem sie einfach ganz simpel hintereinander gepackt werden.
+
+def quickSort(list):
+    if len(list) == 1: #Keine weitere Spaltung nötig
+        return list #Die ist ja offensichtlich schon sortiert.
+    if len(list) == 0: #Leere Liste. Keine weitere Spaltung nötig
+        return list #Eine leere Liste ist offensichtlich sortiert.
+    pivot = list[0] #Wahl des Pivotelements, hier als Beispiel einfach das erste Element.
+    lesser = [] #Liste für kleinere Elemente
+    equal = [] #Liste für gleiche Elemente
+    greater = [] #Liste für größere Elemente
+    for element in list: #Einsortierung
+        if element < pivot:
+            lesser.append(element)
+        elif element == pivot:
+            equal.append(element)
+        else:
+            greater.append(element)
+    lesserSort = quickSort(lesser) #Die Liste mit kleineren Elementen wird an einen rekursiven Aufruf von Quicksort gegeben. Wenn dieser Aufruf fertig ist, bekommen wir diese Teilliste sortiert zurück
+    equalSort = quickSort(equal) #Die Liste mit gleichen Elementen wird an einen rekursiven Aufruf von Quicksort gegeben. Wenn dieser Aufruf fertig ist, bekommen wir diese Teilliste sortiert zurück
+    greaterSort = quickSort(greater) #Die Liste mit größeren Elementen wird an einen rekursiven Aufruf von Quicksort gegeben. Wenn dieser Aufruf fertig ist, bekommen wir diese Teilliste sortiert zurück
+    newlist = lesserSort + equalSort + greaterSort #Ganz einfaches Zusammenbauen der sortierten Teillisten
+    return newlist #Rückgabe entweder an einen höheren rekursiven Aufruf von Quicksort oder wir sind fertig und geben das endgültige Ergebnis zurück.
+
+Zur Laufzeit: Quicksort hängt sehr stark davon ab, ob ein gutes Pivotelement ausgewählt wird (was man meistens vorher nicht wissen kann). Am besten ist es, wenn das Pivotelement ungefähr in der Mitte der verfügbaren Zahlen wäre. Dann spalten sich nämlich drei schöne, gleichgroße Listen ab. Am schlechtesten ist es, wenn das kleinste oder größte Element als Pivot ausgewählt wird. Dann spaltet sich nämlich nur eine winzige Liste, eine leere Liste und eine sehr große Liste ab.
+
+Vergleich Mergesort und Quicksort:
+Warum ist Mergesort das Gegenstück zu Quicksort? Ganz einfach: Mergesort hat fast keine Arbeit beim Spalten der Listen und hat die ganze Arbeit später beim Sortieren mit dem Reißverschlussverfahren. Quicksort hingegen hat beim Spalten die meiste Arbeit (Einordnung nach dem Pivotelement) und hat dafür später beim Zusammenbauen fast gar keine Arbeit mehr, es muss die Listen dann ja nur noch hintereinanderschreiben.

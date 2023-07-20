@@ -1,0 +1,67 @@
+Insertion Sort - Sortieren durch Einfügen
+
+Fast exaktes Gegenstück zu Selectionsort.
+Das jeweils erste Element der Liste wird entnommen und in einer neuen Liste an der passenden Stelle eingefügt.
+
+def insertionSort(list):
+    newlist = []
+    newlist.append(list[0]) #Das erste Element ist zunächst auch das erste der Liste, hier direkt eingefügt, um keine leere Liste mehr zu haben für die for-Schleife
+    for i in range(1, len(list)): #Für jedes Element eine Einfügung, die 0 überspringen wir, weil sie schon eine Zeile drüber bearbeitet wurde
+        element = list[i] #Das aktuell einzufügende Element aus der alten Liste
+        for j in range(len(newlist) + 1): #Durchsuchung der neuen Liste nach der Einfügestelle, die + 1 deckt den Sonderfall ab (siehe unten)
+            if j == len(newlist): #Sonderfallbehandlung
+                newlist.append(element) #Das Element wird ganz hinten angehängt
+            elif element <= newlist[j]: #Einfügestelle gefunden, Achtung: Der Sonderfall muss berücksichtigt werden, dass element niemals <= list[i] ist, wenn das Element also das größte ist. Dann gehört es natürlich ans Ende der Liste, wird aber ohne Sonderfallbehandlung nicht eingefügt
+                newlist.insert(j, element) #Das größere Element und die Restliste wird dadurch nach hinten verschoben und das Element damit richtig eingefügt
+                break #Der Rest der neuen Liste muss nicht mehr durchsucht werden, es kann direkt mit dem nächsten Element weitergemacht werden
+    return newlist
+
+Zur Laufzeit: Hier wird oft die list.insert()-Funktion benutzt. Diese Funktion muss die Listenstruktur ändern und möglicherweise viele Einträge jedesmal verschieben. Das kostet viel Rechenpower. Dieses Verfahren hat also immer eine recht schlechte Geschwindigkeit.
+
+Zum Thema In-Place (fortgeschrittene Zusatzinformation, kannst du gerne zunächst überspringen): In-Place bedeutet, dass der Algorithmus die ursprüngliche Liste verändert und so keinen neuen Speicherplatz für eine neue Liste beanspruchen muss. Das ist hier wie man sieht nicht der Fall. Insertionsort ist also normalerweise nicht In-Place. Er kann allerdings zu einem In-Place-Algorithmus weiterentwickelt werden, wenn man das braucht:
+Und zwar wissen wir, dass die schon bearbeiteten Elemente der Liste nicht mehr gebraucht werden. Gleichzeitig wissen wir, das die Länge der neuen Liste nach jedem Durchlauf um ein Element steigt. Es ist also naheliegend, einfach den benötigten Platz jeweils direkt in der alten Liste zu benutzen. Bisher haben wir die alte Liste einfach in Ruhe gelassen, aber jetzt löschen wir die schon bearbeiteten Elemente aus der alten Liste einfach raus, damit steigt die Länge der Liste nie. Am Anfang hat die alte Liste n Einträge und die neue Liste 0. Nach einem Durchlauf hat die alte Liste n-1 Einträge und die neue Liste 1. Und so weiter, bis die alte Liste 0 Einträge hat und die neue Liste n. Wir machen es so, dass die neue Liste immer am Anfang der Liste steht und die alte Liste am Ende der Liste. Am Schluss gibt es die alte Liste nicht mehr.
+
+def inplaceInsertionSort(list):
+    for i in range(1, len(list)): #Für jedes Element eine Einfügung. Achtung: Element 0 müssen wir hier gar nicht behandeln, weil wir vorher schon wissen, dass es zunächst an den Anfang der neuen Liste rutschen wird. Das ist praktisch, weil es da ja schon steht. Also fangen wir bei Index 1 an.
+        element = list[i] #Das aktuell einzufügende Element aus der alten Liste
+        list.pop(i) #Das Element an Stelle i wird entfernt. Python ist hier nicht ganz so gut geeignet, weil jetzt die Liste doch um eins verkürzt wird, was nicht strikt In-Place ist. Aber für einen richtigen In-Place-Algorithmus hätten wir Java oder C++ gebraucht, weil sich dort die Länge der Arrays nicht ändert. Das wollte ich hier vermeiden, stell dir also einfach das ganze mit Arrays vor, wo wir Arraypositionen einfach freigeben, anstatt die Länge der Liste zu verändern
+        for j in range(i + 1)): #Durchsuchung der neuen Liste nach der Einfügestelle. Wir wissen, dass unsere neue Liste immer Einträge 0 bis i - 1 belegt. Die restlichen Einträge der Liste sind noch von der alten Liste belegt. Die + 1 behandelt wieder wie oben den Sonderfall, dass das Element größer als alle anderen ist
+            if j == i: #Sonderfall
+                list.insert(i, element)
+            elif element <= newlist[j]: #Einfügestelle gefunden
+                newlist.insert(j, element) #Das größere Element und die Restliste wird dadurch nach hinten verschoben und das Element damit richtig eingefügt. Wir haben jetzt wieder die ursprüngliche Länge der Liste, genau wie wir es wollten.
+                break #Der Rest der neuen Liste muss nicht mehr durchsucht werden, es kann direkt mit dem nächsten Element weitergemacht werden
+
+Beispiel für die In-Place-Variante:
+Liste = 1 5 3 2 6
+
+1. Schritt:
+Betrachtet wird das Element 1 (an 0-ter Stelle), aber der Schritt wird hier praktisch vollkommen übersprungen, weil es ja zunächst immer schon richtig sitzt
+Liste = 1 5 3 2 6
+
+2. Schritt:
+betrachtetes Element = 5
+Vergleiche 5 mit 1: größer
+Es greift der Sonderfall und die fünf wird hinten in den neuen Teil eingefügt (zufälligerweise ändert sich die Liste also gar nicht)
+Liste = 1 5 3 2 6
+
+3. Schritt:
+betrachtetes Element = 3
+Vergleiche 3 mit 1: größer
+Vergleiche 3 mit 5: kleiner, also hier einfügen
+Liste = 1 3 5 2 6
+
+4. Schritt:
+Betrachtetes Element = 2
+Vergleiche 2 mit 1: größer
+Vergleiche 2 mit 3: kleiner, also hier einfügen
+Liste = 1 2 3 5 6
+
+5. Schritt:
+Betrachtetes Element = 6
+Vergleiche 6 mit 1: größer
+Vergleiche 6 mit 2: größer
+Vergleiche 6 mit 3: größer
+Vergleiche 6 mit 5: größer
+Es greift der Sonderfall und die 6 wird ganz nach hinten eingeordnet
+Liste = 1 2 3 5 6
