@@ -1,8 +1,8 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, url_for, redirect
 app = Flask(__name__)
 
-@app.route('/')
-def index():
+@app.route('/home')
+def home():
     return '<h2>Hello</h2>'
 
 @app.route('/query')
@@ -21,9 +21,10 @@ def webform():
                   </form>
                '''
     else:
-        name = request.form['name']
-        location = request.form['location']
-        return 'Hi {}. You have submited for the {} comunity.'.format(name, location)
+        #name = request.form['name']
+        #location = request.form['location']
+        #return 'Hi {}. You have submited for the {} comunity.'.format(name, location)
+        return redirect(url_for('home'))
 
 @app.route('/processjson', methods=['POST'])
 def processjson():
