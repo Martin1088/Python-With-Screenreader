@@ -7,7 +7,7 @@ app.config['DEBUG'] = True
 app.config['SECRET_KEY'] = 'Thisisasecret!'
 
 def connect_db():
-    sql = sqlite3.connect('/mnt/c/Users/antho/Documents/data.db')
+    sql = sqlite3.connect('data.db')
     sql.row_factory = sqlite3.Row
     return sql
 
@@ -90,4 +90,4 @@ def viewresults():
     return '<h1>The ID is {}. The name is {}. The location is {}.</h1>'.format(results[2]['id'], results[2]['name'], results[2]['location'])
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
