@@ -1,0 +1,12 @@
+
+<h1>Hello {{ name }}, you are on the home page!</h1>
+
+{% if display %}
+<h2>Yes</h2>
+{% else %}
+<h2>No</h2>
+{% endif %}
+
+{% for x in mylist %}
+<h3> {{ x }} </h3>
+{% endfor %}
