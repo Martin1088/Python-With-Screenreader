@@ -29,7 +29,17 @@ def index():
         db_date = datetime.strftime(dt, '%Y%m%d')
         db.execute('insert into log_date (entry_date) values(?)', [db_date])
         db.commit()
-    return render_template('home.html')
+        # show entreis
+    cur = db.execute('select entry_date from log_date')
+    results = cur.fetchall()
+    # pretty the format
+    results_d = []
+    for i in results:
+        s_date = {}
+        d = datetime.strptime( str(i['entry_date']), '%Y%m%d')
+        s_date['entry_date'] = datetime.strftime(d, '%B %d, %Y')
+        results_d.append(s_date)
+    return render_template('home.html', results = results_d)
 
 @app.route('/view')
 def view():
@@ -49,7 +59,7 @@ def food():
                 [name, protein, carbohydrates, fat, calories])
         db.commit()
 
-    # view etries
+    # view entries
     cur = db.execute('select name, protein, carbohydrates, fat, calories from food')
     results = cur.fetchall()
     return render_template('add_food.html', results = results)
