@@ -30,7 +30,7 @@ def index():
         db.execute('insert into log_date (entry_date) values(?)', [db_date])
         db.commit()
         # show entreis
-    cur = db.execute('select entry_date from log_date')
+    cur = db.execute('select entry_date from log_date order by entry_date desc')
     results = cur.fetchall()
     # pretty the format
     results_d = []
