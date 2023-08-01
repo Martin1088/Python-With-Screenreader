@@ -36,11 +36,11 @@ def index():
     results_d = []
     for i in results:
         s_date = {}
-        s_date['date'] = i['entry_date']
+        s_date['n_date'] = i['entry_date']
         d = datetime.strptime( str(i['entry_date']), '%Y%m%d')
-        s_date['entry_date'] = datetime.strftime(d, '%B %d, %Y')
+        s_date['s_date'] = datetime.strftime(d, '%B %d, %Y')
         results_d.append(s_date)
-    return render_template('home.html', results = results_d)
+    return render_template('home.html', results_d = results_d)
 
 @app.route('/view/<date>', methods=['GET', 'POST'] ) # get date 20230220
 def view(date):
@@ -57,8 +57,8 @@ def view(date):
     food_cur = db.execute('select id, name from food')
     food_results = food_cur.fetchall()
     # join on food_date get fod and log_date together
-    join_cur = db.execute('select food.name, food.protein, food.carbohydrates, food.fat, food.calories from log_date \
-            join food_date on food_date.log_date_id = log_date.id join food on food.id = food_date.food_id \
+    join_cur = db.execute('select food.name, food.protein, food.carbohydrates, food.fat, food.calories \
+            from log_date join food_date on food_date.log_date_id = log_date.id join food on food.id = food_date.food_id \
             where log_date.entry_date = ?', [date])
     join_results = join_cur.fetchall()
     # make the total of the entry
@@ -73,8 +73,7 @@ def view(date):
         total['fat'] += i['fat']
         total['calories'] += i['calories']
 
-    return render_template('day.html', entry_date = date_result['entry_date'], 
-            s_date = s_date, food_results = food_results, join_resuls = join_results, total = total)
+    return render_template('day.html', entry_date = date_result['entry_date'], s_date = s_date, food_results = food_results, join_resuls = join_results, total = total)
 
 @app.route('/food', methods=['GET', 'POST'] )
 def food(): 
