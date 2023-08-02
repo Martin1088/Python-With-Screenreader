@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 def connect_db():
-    sql = sqlite3.connect('/mnt/c/Users/antho/Documents/food_log.db')
+    sql = sqlite3.connect('food_log.db')
     sql.row_factory = sqlite3.Row
     return sql
 
@@ -110,4 +110,4 @@ def food():
     return render_template('add_food.html', results=results)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True, port=5000)
