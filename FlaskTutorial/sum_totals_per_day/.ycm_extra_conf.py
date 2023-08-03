@@ -9,7 +9,7 @@ def Settings(**kwargs):
            'completion': {
                'auto_import': True,
                'extra_imports': [
-                   'sqlite3',
+                   'sqlite3', 'g', 'flask', 
                ],
            },
        }
