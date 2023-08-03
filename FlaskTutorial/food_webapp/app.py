@@ -56,10 +56,12 @@ def view(date):
     # option list data = list of foods avalible 
     food_cur = db.execute('select id, name from food')
     food_results = food_cur.fetchall()
-    # join on food_date get fod and log_date together
-    join_cur = db.execute('select food.name, food.protein, food.carbohydrates, food.fat, food.calories \
-            from log_date join food_date on food_date.log_date_id = log_date.id join food on food.id = food_date.food_id \
-            where log_date.entry_date = ?', [date])
+    # join on food_date get fod and log_date together noch mit left join probieren 
+    join_cur = db.execute('''select food.name, food.protein, food.carbohydrates, food.fat, food.calories 
+            from log_date 
+            join food_date on food_date.log_date_id = log_date.id 
+            join food on food.id = food_date.food_id 
+            where log_date.entry_date = ?''', [date])
     join_results = join_cur.fetchall()
     # make the total of the entry
     total = {}
