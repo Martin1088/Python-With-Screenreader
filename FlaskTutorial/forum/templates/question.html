@@ -33,7 +33,7 @@
             <li><a href="{{ url_for('ask') }}">Ask Question</a></li>
             {% endif %}
             {% if user and user['expert'] %}
-            <li><a href="{{ url_for('answer') }}">Answer Questions</a></li>
+            <li><a href="{{ url_for('unanswered') }}">Unanswered Questions</a></li>
             {% endif %}
             {% if user and user['admin'] %}
             <li><a href="{{ url_for('users') }}">User Setup</a></li>
@@ -49,10 +49,10 @@
     <div class="container theme-showcase" role="main">
 
       <div class="jumbotron">
-        <h1>What?</h1>
-        <p>This is the answer.</p>
-        <p><a class="btn btn-primary btn-lg">Asked By: Herbert</a></p>
-        <p><a class="btn btn-primary btn-lg">Answered By: Anthony</a></p>
+          <h1> {{ question['question_text'] }} </h1>
+          <p>This is the answer: {{ question['answer_text'] }} </p>
+          <p><a class="btn btn-primary btn-lg">Asked By: {{ question['u_name'] }} </a></p>
+          <p><a class="btn btn-primary btn-lg">Answered By: {{ question['e_name']}} </a></p>
       </div>
 
     </div> <!-- /container -->
