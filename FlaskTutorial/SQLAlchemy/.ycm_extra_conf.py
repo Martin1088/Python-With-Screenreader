@@ -9,7 +9,7 @@ def Settings(**kwargs):
            'completion': {
                'auto_import': True,
                'extra_imports': [
-                   'g', 'flask', 'SQLAlchemy'
+                   'g', 'flask', 'SQLAlchemy', 'flask_sqlalchemy'
                ],
            },
        }
