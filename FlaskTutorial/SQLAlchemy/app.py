@@ -1,11 +1,14 @@
 from flask import Flask 
 from flask_sqlalchemy import SQLAlchemy
+#from sqlite3 import *
 from datetime import datetime
 
 app = Flask(__name__)
-app.config.from_pyfile('config.cfg')
+#app.config.from_pyfile('config.cfg')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3' 
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-app.app_context().push()
+#app.app_context().push()
 
 class Customer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -14,7 +17,12 @@ class Customer(db.Model):
     address = db.Column(db.String(300), nullable=False)
     postcode = db.Column(db.String(30), nullable=False)
     email = db.Column(db.String(30), nullable=False, unique=True)
-    solds = db.Relationship('Sold', backref='customer')
+    solds = db.relationship('Sold', backref='customer')
+
+sold_product = db.Table('sold_product',
+        db.Column('sold_id', db.Integer, db.ForeignKey('sold.id', primary_key=True)), 
+        db.Column('product_id', db.Integer, db.ForeignKey('product.id', primary_key=True)),
+        )
 
 class Sold(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -23,10 +31,8 @@ class Sold(db.Model):
     delivered_date = db.Column(db.DateTime)
     coupon_code = db.Column(db.String(30))
     customer_id = db.Column(db.Integer, db.ForeignKey('customer.id'), nullable=False)
+    products = db.relationship('Product', secondary=sold_product)
 
-sold_product = db.Table('sold_product',
-        db.Column(),
-        db.Column())
 
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
