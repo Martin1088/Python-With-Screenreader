@@ -15,6 +15,7 @@ class Customer(db.Model):
     first_name = db.Column(db.String(30), nullable=False)
     last_name = db.Column(db.String(30), nullable=False)
     address = db.Column(db.String(300), nullable=False)
+    city = db.Column(db.String(30), nullable=False)
     postcode = db.Column(db.String(30), nullable=False)
     email = db.Column(db.String(30), nullable=False, unique=True)
     solds = db.relationship('Sold', backref='customer')

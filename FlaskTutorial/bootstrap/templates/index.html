@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+
+
+{% block html_attribs %}
+lang="en"
+{% endblock %}
+
+{% block content %}
+<h1> Test page </h1>
+<p> Here is the content. </p>
+{% endblock %}
+
+{% block title %}
+Flask-Bootstrap-Example
+{% endblock %}
+
+{% block scrips %}
+<script src="{{ url_for('.static', filename='script.js') }}"></script>
+{{ super() }}
+{% endblock %}
