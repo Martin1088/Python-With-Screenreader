@@ -1,6 +1,9 @@
 from flask import Flask 
 from flask_login import LoginManager, UserMixin, login_required, login_user
 from flask_sqlalchemy import SQLAlchemy
+#from dotenv import load_dotenv 
+#load_dotenv()
+
 
 login_manager = LoginManager()
 db = SQLAlchemy()
