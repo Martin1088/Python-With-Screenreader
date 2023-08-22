@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
@@ -6,6 +6,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, TextAreaField
 from flask_wtf.file import FileField, FileAllowed 
 
+
+ALLOWED_EXTENSIONS = {'pdf', 'jpg', 'jpeg', 'png', 'gif'}
 db = SQLAlchemy()
 
 ## Product
@@ -36,6 +38,10 @@ def create_app():
     with app.app_context():
         db.create_all()
 
+    def allowed_file(filename):
+        return '.' in filename and \
+                filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
     @app.route('/')
     def index():
         return render_template('index.html')
@@ -56,9 +62,26 @@ def create_app():
     def admin():
         return render_template('admin/index.html', admin=True)
 
-    @app.route('/admin/add')
+    @app.route('/admin/add', methods=['GET', 'POST'])
     def add():
         form = AddProduct()
+        if form.validate_on_submit():
+            name = form.name.data 
+            price = form.price.data 
+            stock = form.stock.data 
+            description = form.description.data
+            if 'Image' not in request.files:
+                flash('No file')
+                return redirect(request.url)
+            image = request.files['Image']
+            if image.filename == '':
+                flash('No selection')
+                return redirect(request.url)
+            if image and allowed_file(image.filename):
+                ##
+            image_url = 
+
+            new_p = Product()
         return render_template('admin/add-product.html', admin=True, form = form )
 
     @app.route('/admin/order')
