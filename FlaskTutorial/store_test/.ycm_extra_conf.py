@@ -10,7 +10,7 @@ def Settings(**kwargs):
            'completion': {
                'auto_import': True,
                'extra_imports': [
-                   'g', 'flask', 'SQLAlchemy', 'flask_sqlalchemy', 'mysql', 'sqlite3', 'flask_login'
+                   'g', 'flask', 'SQLAlchemy', 'flask_sqlalchemy', 'mysql', 'sqlite3', 'flask_login', 'werkzeug', 'flask_wtf'
                ],
            },
        }
