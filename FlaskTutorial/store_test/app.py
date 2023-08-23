@@ -73,20 +73,24 @@ def create_app():
             price = form.price.data 
             stock = form.stock.data 
             description = form.description.data
+            image_url = None
             if 'image' not in request.files:
-                ##flash('No file')
+                flash('No file')
                 print('No File')
-                ##return redirect(request.url)
+                return redirect(request.url)
             image = request.files['image']
             if image.filename == '':
-                ##flash('No selection')
+                flash('No selection')
                 print('No selection')
-                ##return redirect(request.url)
+                return redirect(request.url)
             if image and allowed_file(image.filename):
                 filename = secure_filename(image.filename)
-                image_url = image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-                return '{} {} {}'.format(name, price, image_url) 
-            ##new_p = Product()
+                image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+                image_url = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            new_p = Product(name = name, price = price, stock = stock, description = description, image = image_url)
+            db.session.add(new_p)
+            db.session.commit()
+            return redirect(url_for('admin'))
         return render_template('admin/add-product.html', admin=True, form = form )
 
     @app.route('/admin/order')

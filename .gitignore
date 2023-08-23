@@ -1,5 +1,4 @@
 __pycache__/
 *.cfg
 .flaskenv
-*.JPEG
-*.JPG
+images/
