@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Home | Trendy Fashion Store{% endblock %}
+{% block title %}Home | Wizard's Store{% endblock %}
 
 {% block body %}
 <div class="row">
@@ -15,9 +15,9 @@
 					<img alt="First slide" src="{{ url_for('static', filename='imgs/1.jpg') }}" style="width: 100%;">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Amazing Autumn Wears</h1>
+            				<h1>Amazing cheeky dog</h1>
 							<p>
-								Get the most trendy outfits to go with the season
+                                don't wait long and order
 							</p>
 						</div>
 					</div>
@@ -26,9 +26,9 @@
 					<img alt="Second slide" src="{{ url_for('static', filename='imgs/2.jpg') }}" style="width: 100%;">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Amazing Autumn Wears</h1>
+            				<h1>Amazing cheeky dog</h1>
 							<p>
-								Get the most trendy outfits to go with the season
+                                don't wait long and order
 							</p>
 						</div>
 					</div>
@@ -53,20 +53,19 @@
 </div>
 
 <div class="row">
+    {% for product in products %}
 	<div class="col-lg-3">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/blouse.jpg') }}" alt="">
+                <a href="{{ url_for('product', id=product.id ) }}">
+					<img src="{{ url_for( product.image[2:8], filename=product.image[9:]) }}" alt="">
 				</a>
 				<div class="caption text-center">
-					<h4 class="bold">Classic Blouse</h4>
-					<p>
-						Show your class with this simple and elegant outfit
-					</p>
+                    <h4 class="bold">{{ product.name}}</h4>
+					<p>{{ product.description}}</p>
 					<hr />
 					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
+						<a href="{{ url_for('product', id=product.id ) }}" class="btn btn-primary btn-sm">
 							<i class="glyphicon glyphicon-eye-open"></i> View
 						</a>
 						<a href="#" class="btn btn-default btn-sm">
@@ -77,133 +76,7 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="col-lg-3">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/printed-dress.jpg') }}" alt="">
-				</a>
-				<div class="caption text-center">
-					<h4 class="bold">Printed Dress</h4>
-					<p>
-						Classy simple dress for all occasion
-					</p>
-					<hr />
-					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
-							<i class="glyphicon glyphicon-eye-open"></i> View
-						</a>
-						<a href="#" class="btn btn-default btn-sm">
-							<i class="glyphicon glyphicon-shopping-cart"></i> Add To Cart
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-lg-3">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/printed-summer-dress.jpg') }}" alt="">
-				</a>
-				<div class="caption text-center">
-					<h4 class="bold">Summer Dress</h4>
-					<p>
-						Amazing summer outfit for trendy women
-					</p>
-					<hr />
-					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
-							<i class="glyphicon glyphicon-eye-open"></i> View
-						</a>
-						<a href="#" class="btn btn-default btn-sm">
-							<i class="glyphicon glyphicon-shopping-cart"></i> Add To Cart
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-lg-3">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/printed-summer-dress_2.jpg') }}" alt="">
-				</a>
-				<div class="caption text-center">
-					<h4 class="bold">Summer Gown</h4>
-					<p>
-						Printed summer gown for trendy women
-					</p>
-					<hr />
-					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
-							<i class="glyphicon glyphicon-eye-open"></i> View
-						</a>
-						<a href="#" class="btn btn-default btn-sm">
-							<i class="glyphicon glyphicon-shopping-cart"></i> Add To Cart
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-lg-3">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/printed-dress_2.jpg') }}" alt="">
-				</a>
-				<div class="caption text-center">
-					<h4>Short Printed Dress</h4>
-					<p>
-						Show your class with this simple and elegant outfit
-					</p>
-					<hr />
-					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
-							<i class="glyphicon glyphicon-eye-open"></i> View
-						</a>
-						<a href="#" class="btn btn-default btn-sm">
-							<i class="glyphicon glyphicon-shopping-cart"></i> Add To Cart
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-lg-3">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-				<a href="./view-product.html">
-					<img src="{{ url_for('static', filename='imgs/faded-short-sleeves-tshirt.jpg') }}" alt="">
-				</a>
-				<div class="caption text-center">
-					<h4 class="bold">Faded Short Sleeves</h4>
-					<p>
-						Simple faded shorts and short sleeves top
-					</p>
-					<hr />
-					<p>
-						<a href="./view-product.html" class="btn btn-primary btn-sm">
-							<i class="glyphicon glyphicon-eye-open"></i> View
-						</a>
-						<a href="#" class="btn btn-default btn-sm">
-							<i class="glyphicon glyphicon-shopping-cart"></i> Add To Cart
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    {% endfor %}
 
 </div>
 

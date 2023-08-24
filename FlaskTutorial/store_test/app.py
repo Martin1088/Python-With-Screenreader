@@ -45,11 +45,15 @@ def create_app():
 
     @app.route('/')
     def index():
-        return render_template('index.html')
+        products = Product.query.all()
+        ##products.image  
+        return render_template('index.html', products = products)
 
-    @app.route('/product')
-    def product():
-        return render_template('view-product.html')
+    @app.route('/product/<id>')
+    def product(id):
+        product = Product.query.filter_by(id=id).first()
+
+        return render_template('view-product.html', product = product )
 
     @app.route('/cart')
     def cart():
@@ -61,7 +65,10 @@ def create_app():
 
     @app.route('/admin')
     def admin():
-        return render_template('admin/index.html', admin=True)
+        products = Product.query.all()
+        product_in_stock = Product.query.filter(Product.stock > 0).count()
+        return render_template('admin/index.html', admin=True, products = products, \
+                product_in_stock = product_in_stock)
 
     @app.route('/admin/add', methods=['GET', 'POST'])
     def add():
