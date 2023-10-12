@@ -66,9 +66,9 @@ def add_member():
     member_cur = db.execute('select * from members where name = ?', [name])
     result = member_cur.fetchone()
     return jsonify({ 'member' : \
-            {'id' : result['id'], 'name' : result['name'], 'email' : result['email']} \
-            })
-    #return "Add member {}, {}, {}".format(name, email, level)
+          {'id' : result['id'], 'name' : result['name'], 'email' : result['email']} \
+          })
+    # return "Add member {}, {}, {}".format(name, email, level)
 
 @app.route('/member/<int:member_id>', methods=['PUT', 'PATCH'])
 @protected
