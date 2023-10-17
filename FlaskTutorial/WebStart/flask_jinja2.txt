@@ -1,0 +1,23 @@
+﻿	Informationstechnik Python	Seite 34 Version 0.9
+36. Flask Jinja 2
+Jinja2 ist ein Template Engine für die Python. Es ermöglicht statischen HTML-Code mit Variablen, Logik und anderen dynamischen Elementen zu kombinieren, um dynamische Webseiten zu erstellen. Es bietet viele nützliche Funktionen wie die Möglichkeit, Schleifen und bedingte Anweisungen in den Templates zu verwenden.
+from flask import Flask, render_template
+@app.route('/')
+def hello():
+return render_template("index.html")
+return render_template("index.html", name="Hans")
+Als key kann jeder beliebige Wert verwendet werden und als value können die in Python3 üblichen Objekte (in Python ist alles ein Objekt) übergeben werden.
+@app.route('/') def hello():
+liste = ["Max", "Moritz", "Stefan", "Birgit", "Mathias"] return render_template("index.html", liste=liste)
+FOR-Schleifen in Jinja2 und HTML:
+<body>
+{% for name in liste %}
+<p>Hallo {{ name }}</p>
+{% endfor %}
+</body>
+Bedingte Abfragen in Jinja2 und HTML:
+{% for name in liste %}
+<p {% if name=='Stefan' %} style="color:red;" {% endif %}> Hallo {{ name }}
+</p>
+{% endfor %}
+Bernd Schlütter 2022

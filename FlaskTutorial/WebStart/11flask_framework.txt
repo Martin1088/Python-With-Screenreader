@@ -1,0 +1,19 @@
+﻿	Informationstechnik Python	Seite 33 Version 0.9
+35. Flask Framework
+Flask ist ein vom österreichischen Programmierer Armin Ronacher in Python geschriebenes Webframework. Der Fokus von Flask liegt auf Erweiterbarkeit und guter Dokumentation. (Quelle: www.wikipedia.de)
+from flask import Flask
+app = Flask('______name__')
+@app.route('/') def index():
+return ('<h1>Hallo Flask! </h1>')
+@app.route("/hello/<name>") def hello(name):
+return ('<h1>Hallo ' + name + '</h1>')
+app.run(debug=True)
+Unterscheiden von <form> Method Anfragen:
+from flask import request
+@app.route('/', methods=['POST', 'GET']) def index():
+if request.method == 'GET':
+print('Hier in bp_index.py (GET)') return render_template('index.html')
+if request.method == 'POST':
+print('Hier in bp_index.py (POST)')
+return ('<h1>Hallo POST!</h1>')
+Bernd Schlütter 2022

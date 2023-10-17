@@ -1,0 +1,20 @@
+﻿Informationstechnik Python
+Seite 37
+Version 0.9
+38. Flask Blueprints
+Der Haupt-Anwendungsfall für Blueprints besteht darin, die Anwendung in verschiedene Komponenten zu organisieren.
+In der main.py wird das Flask - Objekt erzeugt und die Blueprints importiert und registriert:
+from flask import Flask
+import index import comment
+def create_app():
+app_flask = Flask(__name__)
+app_flask.register_blueprint(index.bp_index) app_flask.register_blueprint(comment.bp_comment) return app_flask
+app = create_app()
+app.run(debug=True)
+Blueprint index.py wird erzeugt und Route programmiert:
+from flask import Blueprint
+bp_index = Blueprint('index', _name___)
+@bp_index.route('/') def index(): return "<h1>Hallo Index</h1>"
+Blueprint comment.py wird erzeugt und Route programmiert:
+from flask import Blueprint bp_comment = Blueprint('comment', __name__) @bp_comment.route('/comment') def comment(): return "<h1>Hallo Comment</h1>"
+Bernd Schlütter 2022
