@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Your comment</h1>
+<form method="post" action="/comments">
+    <input name="txt" type="text">
+    <button id="save" type="Submit">Send</button>
+</form>
+<h1>Previous comments</h1>
+
+{% for comment in comments %}
+    {{comment}} <br>
+{% endfor %}
+
+
+{% endblock %}
