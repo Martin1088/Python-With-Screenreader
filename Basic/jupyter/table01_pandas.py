@@ -13,3 +13,4 @@ df.BFK = df.BFK.map({1.0: 'sehr gut',  1.5: 'gut', 2.0: 'gut'})
 df.PK = df.PK.map({1.0: 'sehr gut', 1.5: 'gut' , 2.0: 'gut'})
 print(df)
 
+
