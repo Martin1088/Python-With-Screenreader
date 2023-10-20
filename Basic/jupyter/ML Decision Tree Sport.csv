@@ -1,0 +1,15 @@
+Tag,Aussicht,Temp,Luftfeuchte,Wind,Entscheidung
+1,sonnig,30,hoch,schwach,Nein
+2,sonnig,36,hoch,stark,Nein
+3,bedeckt,32,hoch,schwach,Ja
+4,regen,21,hoch,schwach,Ja
+5,regen,15,normal,schwach,Ja
+6,regen,10,normal,stark,Nein
+7,bedeckt,17,normal,stark,Ja
+8,sonnig,25,hoch,schwach,Nein
+9,sonnig,18,normal,schwach,Ja
+10,regen,22,normal,schwach,Ja
+11,sonnig,26,normal,stark,Ja
+12,bedeckt,23,hoch,stark,Ja
+13,bedeckt,35,normal,schwach,Ja
+14,regen,19,hoch,stark,Nein
