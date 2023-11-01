@@ -12,7 +12,7 @@ df.Luftfeuchte = df.Luftfeuchte.map({'normal': 1, 'hoch': 2 })
 model = tree.DecisionTreeClassifier( random_state=0)
 data = df.to_numpy()
 model.fit(data, target)
-tree.plot_tree(model)
+print(tree.export_text(model))
 
 result = model.predict([[20, 1, 1]])
 print(df)
