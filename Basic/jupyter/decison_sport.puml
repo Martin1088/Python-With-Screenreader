@@ -1,17 +1,18 @@
 @startmindmap
-+ feature_2 <= 0,50
-++ feature_1 <= 12,50
-+++ Nein
-++ feature_1 > 12,50
-+++ Ja
-+ feature_2 > 0,50
-++ feature_0 <= 1,50
-+++ Nein
-++ feature_0 > 1,50
-+++ feature_1 <= 20
++ Sprot_decision_tree
+++ feature_2 <= 0,50
++++ feature_1 <= 12,50
 ++++ Nein
-+++ feature_1 > 20
++++ feature_1 > 12,50
 ++++ Ja
+++ feature_2 > 0,50
++++ feature_0 <= 1,50
+++++ Nein
++++ feature_0 > 1,50
+++++ feature_1 <= 20
++++++ Nein
+++++ feature_1 > 20
++++++ Ja
 @endmindmap
 
 
