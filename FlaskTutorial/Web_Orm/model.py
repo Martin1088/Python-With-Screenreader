@@ -1,5 +1,5 @@
-# from sqlite3 import *
 from datetime import datetime
+from sqlite3 import *
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -37,7 +37,7 @@ sold_product = db.Table(
 
 class Sold(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    sold_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    # sold_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     shipped_date = db.Column(db.DateTime)
     delivered_date = db.Column(db.DateTime)
     coupon_code = db.Column(db.String(30))
