@@ -2,6 +2,7 @@
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import class_mapper
 
 db = SQLAlchemy()
 
@@ -11,6 +12,3 @@ def getdb(app):
     with app.app_context():
         db.create_all()
         return db
-
-
-# app.app_context().push()
