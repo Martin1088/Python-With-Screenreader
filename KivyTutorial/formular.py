@@ -16,13 +16,13 @@ class MyGridLayout(GridLayout):
         self.name = TextInput(multiline=False)
         self.add_widget(self.name)
 
-        self.add_widget(Label(text="Email: "))
-        self.email = TextInput(multiline=False)
-        self.add_widget(self.email)
+        # self.add_widget(Label(text="Email: "))
+        # self.email = TextInput(multiline=False)
+        # self.add_widget(self.email)
 
-        self.add_widget(Label(text="Age: "))
-        self.age = TextInput(multiline=False)
-        self.add_widget(self.age)
+        # self.add_widget(Label(text="Age: "))
+        # self.age = TextInput(multiline=False)
+        # self.add_widget(self.age)
 
 
 class MyApp(App):
