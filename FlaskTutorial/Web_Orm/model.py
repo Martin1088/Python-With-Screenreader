@@ -49,7 +49,3 @@ class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(30), nullable=False, unique=True)
     price = db.Column(db.Integer, nullable=False)
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True, port=5000)

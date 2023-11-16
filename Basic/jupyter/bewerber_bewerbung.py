@@ -9,6 +9,8 @@ target = df["Performance"]
 df = df.drop(columns=["Performance"])
 df = df.drop(columns=["Geschlecht", "PersonalNr", "Alter", "Ehestand", "Attrition"])
 # Anpassen der Werte
+
+print(df["Position"].unique())
 df.Reisetaetigkeit = df.Reisetaetigkeit.map({"Nie": 0, "Selten": 50, "Haeufig": 100})
 df.Abteilung = df.Abteilung.map({"Entwicklung": 1, "Vertrieb": 2, "Personal": 3})
 df.Position = df.Position.map(
