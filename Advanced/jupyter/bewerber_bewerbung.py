@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn import tree
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.model_selection import train_test_split
 
 pd.set_option("display.max_rows", 2000)
@@ -39,5 +39,9 @@ model.fit(data, target)
 # print(tree.export_text(model))
 x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.1)
 # Genauigkeit bestimmen
-print(model.score(x_test, y_test))
-print(accuracy_score(y_test, y_pred=))
+print("score", model.score(x_test, y_test))
+# accuracy
+y_pred = model.predict(x_test)
+print("accurcy :", accuracy_score(y_test, y_pred))
+print()
+print(confusion_matrix(y_test, y_pred))
