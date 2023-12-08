@@ -10,6 +10,7 @@ target = df["Performance"]
 ## drop noch hinzufügen
 df = df.drop(columns=["Performance"])
 df = df.drop(columns=["Geschlecht", "PersonalNr", "Alter", "Ehestand", "Attrition"])
+df = df.drop(columns=["ProzentGehaltserhoehung", "AktienOptionen"])
 # Anpassen der Werte
 
 # print(df["Position"].unique())
@@ -37,7 +38,7 @@ model = tree.DecisionTreeClassifier(random_state=0)
 data = df.to_numpy()
 model.fit(data, target)
 print(tree.export_text(model))
-x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.1)
+x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5)
 # Genauigkeit bestimmen
 print("score", model.score(x_test, y_test))
 # accuracy
