@@ -38,8 +38,9 @@ model = tree.DecisionTreeClassifier(random_state=0)
 data = df.to_numpy()
 model.fit(data, target)
 print(tree.export_text(model))
-x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.5)
+x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.1)
 # Genauigkeit bestimmen
+model.fit(x_train, y_train)
 print("score", model.score(x_test, y_test))
 # accuracy
 y_pred = model.predict(x_test)
