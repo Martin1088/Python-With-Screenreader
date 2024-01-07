@@ -24,6 +24,6 @@ soap_app = Application(
 wsgi_app = WsgiApplication(soap_app)
 
 if __name__ == "__main__":
-    server = make_server("0.0.0.0", 5000, wsgi_app)
-    print("Listening on http://0.0.0.0:5000")
+    server = make_server("0.0.0.0", 5002, wsgi_app)
+    print("Listening on http://0.0.0.0:5002")
     server.serve_forever()
