@@ -1,0 +1,14 @@
+{
+  "Filme":
+  [
+  {
+      "Titel": "Terminator",
+    "Orginal Terminator": "The Terminator",
+    "Produktionsland": "Vereinigtes Königreich",
+    "Orginalsprache": "Englisch",
+    "Erscheinungsjahr": 1984,
+    "Länge": 107,
+    "Altersfreigabe": 16,
+  }
+  ]
+}
