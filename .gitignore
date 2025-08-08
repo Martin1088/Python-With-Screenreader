@@ -5,4 +5,5 @@ __pycache__
 venv/
 Advanced/deeplearn/HSS_KI_WebGUI
 OCR_Ziffern/
-
+.idea
+.DS_Store
