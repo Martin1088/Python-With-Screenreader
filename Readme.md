@@ -8,3 +8,4 @@
    Advanced projects and training to work with classes.
 4. **FlaskTutorial**:
    Self-study Web-Development with flask. [flask](FlaskTutorial/flask.md)
+   - [Tasks in flask](./tutorial/task01.md) 
